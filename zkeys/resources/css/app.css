@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+
+body {
+    background: url('https://github.com/makhluk-antariksa/uas_praktikumweb/blob/main/rk.jpg?raw=true') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.bg-overlay {
+    background: rgba(20, 20, 20, 0.7); /* hitam transparan */
+    min-height: 100vh;
+}
+
+.navbar, .footer, .bg-dark {
+    background-color: #232323 !important; /* abu gelap */
+}
+
+.navbar-brand, .nav-link, .footer, .text-light {
+    color: #FFD700 !important; /* gold */
+}
+
+.btn-primary, .btn-gold {
+    background-color: #FFD700;
+    color: #232323;
+    border: none;
+}
+
+.btn-primary:hover, .btn-gold:hover {
+    background-color: #e6be00;
+    color: #fff;
+}
+
+.card, .main-content {
+    background: rgba(40, 40, 40, 0.85);
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    padding: 24px;
+}
